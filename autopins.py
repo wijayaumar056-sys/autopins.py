@@ -40,8 +40,8 @@ def create_pin(token, board_id, image_url, title, link):
     return response.json()
 
 def main():
-    token = os.environ.get('PINTEREST_TOKEN')
-    board_id = "MASUKKAN_BOARD_ID_BAPAK" # Ganti dengan Board ID Bapak
+    token = os.environ.get('pina_AMATLEQXADOK6AIAGDAL6D3X4MBKXHIBQBIQCURZFR62Q2J5TLW3THJTIITZ2SVK7ZYUI6XUKQXCPEEXDFVBRDWTVM34NNAA')
+    board_id = "1134836806108047964" # Ganti dengan Board ID Bapak
     
     if not os.path.exists('pins.txt'):
         print("File pins.txt tidak ada!")
